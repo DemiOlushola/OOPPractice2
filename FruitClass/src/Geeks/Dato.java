@@ -19,7 +19,7 @@ public class Dato {
         System.out.print("What region are you in?(Europe or America): ");
         String currentRegion = s.nextLine();
 
-        // Here i use a switch statement, instead of an if statement, only because it looks cleaner ti ne
+        // Here i use a switch statement, instead of an if statement, only because it looks cleaner to me
         switch (currentRegion){
             case "Europe":
                 System.out.print("Day: ");
