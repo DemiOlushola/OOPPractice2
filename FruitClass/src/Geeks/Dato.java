@@ -21,7 +21,7 @@ public class Dato {
 
         // Here i use a switch statement, instead of an if statement, only because it looks cleaner to me
         switch (currentRegion){
-            case "Europe":
+            case "Europe": // Here i check for when the input when asked is europe
                 System.out.print("Day: ");
                 day = s.nextLine();
 
