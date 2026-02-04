@@ -13,7 +13,7 @@ public class Dato {
         String month = "";
         String year = "";
 
-        // Creates a scanner for getting input for the suer
+        // Creates a scanner for getting input from the user
         Scanner s = new Scanner(System.in);
 
         System.out.print("What region are you in?(Europe or America): ");
