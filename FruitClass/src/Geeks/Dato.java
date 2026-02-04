@@ -17,7 +17,7 @@ public class Dato {
         Scanner s = new Scanner(System.in);
 
         System.out.print("What region are you in?(Europe or America): ");
-        String currentRegion = s.nextLine();
+        String currentRegion = s.nextLine(); // A variable to get the input from the scanner to use in the switch statement
 
         // Here i use a switch statement, instead of an if statement, only because it looks cleaner to me
         switch (currentRegion){
