@@ -16,7 +16,6 @@ public class Tshirt {
     }
 
     void getInformation(String type) {
-
         NumberFormat n = NumberFormat.getCurrencyInstance();
 
         switch(type) {
@@ -34,5 +33,4 @@ public class Tshirt {
                 break;
         }
     }
-
 }
